@@ -37,7 +37,7 @@ export default function IndividualProject({params}: {params: {title: string}}) {
       >
         <SectionHeading>{CurrentProject?.title}</SectionHeading>
         <p className="text-gray-700 -mt-6 dark:text-white/80 p-10">
-          {CurrentProject?.description}
+          {CurrentProject?.detailedDescription}
         </p>
         <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800 p-5">
           {CurrentProject?.tags.map((tag, index) => (
