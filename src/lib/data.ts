@@ -7,27 +7,20 @@ import test from "@/../public/test.jpg";
 export const links = [
   {
     name: "Home",
-    hash: "#home",
-  },
-  {
-    name: "About",
-    hash: "#about",
-  },
-  {
-    name: "Projects",
-    hash: "#projects",
+    route: "/",
   },
   {
     name: "Skills",
-    hash: "#skills",
+    route: "/skills",
   },
   {
-    name: "Experience",
-    hash: "#experience",
+    name: "Projects",
+    route: "/projects",
   },
+
   {
     name: "Contact",
-    hash: "#contact",
+    route: "/contact",
   },
 ] as const;
 

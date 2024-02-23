@@ -23,20 +23,20 @@ export default function Header() {
           {links.map((link) => (
             <motion.li
               className="h-3/4 flex items-center justify-center relative"
-              key={link.hash}
+              key={link.route}
               initial={{y: -100, opacity: 0}}
               animate={{y: 0, opacity: 1}}
             >
               <Link
                 //the below line means that before the comma class will alaways be applied. but if the condition (activeSection===link.name) is true then we 'text-gray-950' will also be applied
                 className={clsx(
-                  "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300",
+                  "flex w-full items-center justify-center px-3 py-3 hover:text-gray-950 transition dark:text-gray-100 dark:hover:text-gray-300",
                   {
-                    "text-gray-950 dark:text-gray-200":
+                    "text-gray-950 dark:text-gray-50":
                       activeSection === link.name,
                   },
                 )}
-                href={link.hash}
+                href={link.route}
                 onClick={() => {
                   setActiveSection(link.name);
                   setTimeOfLastClick(Date.now());

@@ -11,7 +11,7 @@ import "react-vertical-timeline-component/style.min.css";
 import {experiencesData} from "@/lib/data";
 import {useTheme} from "@/context/theme-context";
 export default function Experience() {
-  const {ref} = useSectionInView("Experience");
+  const {ref} = useSectionInView("Home");
   const {theme} = useTheme();
   return (
     <section

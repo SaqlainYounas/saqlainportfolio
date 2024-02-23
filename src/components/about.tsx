@@ -7,7 +7,7 @@ import {useSectionInView} from "@/lib/hooks";
 
 export default function About() {
   //if 75% of the element is in the view then we want to change the state
-  const {ref} = useSectionInView("About");
+  const {ref} = useSectionInView("Home");
 
   return (
     <motion.section
@@ -20,30 +20,23 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
+        I have always been interested in{" "}
+        <span className="font-medium">Software Engineering</span>, I decided to
+        pursue my passion for computers a long time ago. I enrolled in a coding
+        bootcamps and learned{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          about computers coding and how they work
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
+        . <span>My favorite part of programming</span> is the problem-solving
+        aspect. I <span>love</span> the feeling of finally figuring out a
+        solution to a problem. My core stack is{" "}
+        <span className="font-medium">
+          React, Next.js, Node.js, & TypeScript
+        </span>
+        . I am also familiar with GSAP and Framer motion. I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
-      </p>
-
-      <p>
-        <span className="italic">When Im not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. Im also
-        learning how to play the guitar.
       </p>
     </motion.section>
   );
