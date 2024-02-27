@@ -1,10 +1,10 @@
 // Import necessary dependencies
 import {NextResponse} from "next/server";
-import getProjects from "@/actions/getProjects";
+import {projectsData} from "@/lib/data";
 
 export async function GET() {
   try {
-    const projects = await getProjects();
+    const projects = projectsData;
 
     // Return the projects data as JSON response
     return NextResponse.json(projects);
