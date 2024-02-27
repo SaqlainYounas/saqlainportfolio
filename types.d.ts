@@ -19,7 +19,7 @@ type Skills = {
 
 type SectionName = (typeof links)[number]["name"];
 type ProjectProps = (typeof projectsData)[number];
-const fadeInAnimationVariants = {
+export const fadeInAnimationVariants = {
   initial: {
     opacity: 0,
     y: 100,
