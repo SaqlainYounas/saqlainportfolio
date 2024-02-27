@@ -1,11 +1,10 @@
 "use client";
 
 import React, {useState, useEffect} from "react";
-import {ProjectProps} from "@/lib/types";
 import SectionHeading from "@/components/section-heading";
 import {motion} from "framer-motion";
-import {fadeInAnimationVariants} from "@/lib/types";
 import axios from "axios";
+import {ProjectProps, fadeInAnimationVariants} from "../../../../types";
 
 export default function IndividualProject({params}: {params: {title: string}}) {
   const [CurrentProject, setCurrentProject] = useState<ProjectProps>();
@@ -40,7 +39,7 @@ export default function IndividualProject({params}: {params: {title: string}}) {
           {CurrentProject?.detailedDescription}
         </p>
         <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800 p-5">
-          {CurrentProject?.tags.map((tag, index) => (
+          {CurrentProject?.tags.map((tag: string, index: number) => (
             <motion.li
               className="bg-white border border-black/[0.1] rounded-xl px-5 py-3 dark:bg-white/10 dark:text-white/80"
               key={index}

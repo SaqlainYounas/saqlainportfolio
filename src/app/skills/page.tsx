@@ -16,7 +16,7 @@ export default async function Skills() {
         <SectionHeading>My Skills</SectionHeading>
         <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
           {Skills.map((item: string, index: number) => (
-            <AnimatedList skill={item} index={index} />
+            <AnimatedList key={index} skill={item} index={index} />
           ))}
         </ul>
       </section>
