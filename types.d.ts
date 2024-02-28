@@ -1,7 +1,7 @@
 import {links} from "@/lib/data";
 import {projectsData} from "@/lib/data";
 
-type Project = {
+type ProjectType = {
   title: string;
   description: string;
   detailedDescription: string;

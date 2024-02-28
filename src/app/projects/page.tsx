@@ -1,17 +1,16 @@
 import React from "react";
 import SectionHeading from "@/components/section-heading";
-
-import {useSectionInView} from "@/lib/hooks";
 import type {Metadata} from "next";
 import getProjects from "@/actions/getProjects";
 import Project from "@/components/project";
+import {ProjectType} from "../../../types";
 
 export const metaData: Metadata = {
   title: "Projects",
 };
 
 export default async function Projects() {
-  const projectsData: Promise<Project[]> = getProjects();
+  const projectsData: Promise<ProjectType[]> = getProjects();
   const projects = await projectsData;
 
   // const {ref} = useSectionInView("Projects", 0.5);
