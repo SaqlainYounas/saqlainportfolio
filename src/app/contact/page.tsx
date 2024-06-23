@@ -30,7 +30,7 @@ export default function Contact() {
           Please contact me directly at{" "}
           <a className="underline" href="mailto:saqoo1005@gmail.com">
             saqoo1005@gmail.com
-          </a>
+          </a>{" "}
           or through this form.
         </p>
         <form
@@ -42,6 +42,8 @@ export default function Contact() {
               return;
             }
             toast.success("Email Sent successfully!");
+            formData.delete("email");
+            formData.delete("message");
           }}
         >
           <input

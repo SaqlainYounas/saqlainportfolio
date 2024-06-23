@@ -30,7 +30,7 @@ export const experiencesData = [
     title: "Senior Associate Consultatn",
     location: "TechVista Systems (United Arab Emirates)",
     description:
-      "Worked on BORN Group Project to Implement Frontend Solution using MS Dynamics 365 Commerce",
+      "Got Selected for Onsite Transfer on Basis of Extraordinary Performance on previous projects and tough interview process.",
     icon: React.createElement(CgWorkAlt),
     date: "Nov 2023 - Present",
   },
@@ -38,7 +38,7 @@ export const experiencesData = [
     title: "Junior Consultant",
     location: "Systems Limited Pakistan.",
     description:
-      "Worked on Multiple Projects using MS Dynamics 365 Commerce, React & Typescript.",
+      "Lead Frontend Developer working on MS Dynamics 365 Commerce Projects using React & Typescript.",
     icon: React.createElement(CgWorkAlt),
     date: "Sep 2023 - Nov 2023",
   },
@@ -54,7 +54,7 @@ export const experiencesData = [
     title: "Trainee Consultant",
     location: "Systems Limited Pakistan",
     description:
-      "Worked on Multiple Projects using MS Dynamics 365 Commerce, React & Typescript.",
+      "Completed multiple trainings for MS Dynamics 365 Commerce, React & Typescript.",
     icon: React.createElement(CgWorkAlt),
     date: "March 2021 - Jan 2022",
   },
@@ -64,27 +64,27 @@ export const projectsData = [
   {
     title: "BORN-Group",
     description:
-      "Worked in teams to implement front-end solutions for MS D365 Commerce Projects, utilizing React JS and TypeScript.",
+      "Integral part of Team to implement D365 Commerce Frontend for Born Group.",
     detailedDescription:
-      "Collaborating with cross-functional teams to architect and implement front-end solutions for Microsoft Dynamics 365 Commerce Projects, utilizing the power of React JS and TypeScript. Engaging with dedicated UI/UX teams to master and contribute to the styling and aesthetics of websites, ensuring seamless user experiences.",
+      "I was part of a team that implemented the front-end for the Born Group's Microsoft Dynamics 365 Commerce project. I worked with React JS and TypeScript to create a seamless user experience. I collaborated with UI/UX teams to ensure that the website was visually appealing and user-friendly. I also worked with other cross-functional teams to ensure that the project was completed on time, however the project was abandoned due to clients internal issues. We worked a great deal in development of this website and it was a great learning experience.",
     tags: ["React", "Typescript", "MS Dynamics 365 Commerce", "SCSS", "Git"],
     imageUrl: born,
   },
   {
     title: "Britax-Romers",
     description:
-      "Worked in teams to implement front-end solutions for MS D365 Commerce Projects, utilizing React JS and TypeScript.",
+      "Lead Frontend Developer working on this project for Britax-Romers.",
     detailedDescription:
-      "Collaborating with cross-functional teams to architect and implement front-end solutions for Microsoft Dynamics 365 Commerce Projects, utilizing the power of React JS and TypeScript. Engaging with dedicated UI/UX teams to master and contribute to the styling and aesthetics of websites, ensuring seamless user experiences.",
+      "I was the Lead Frontend Developer for this project, that means i was responsible for the overall architecture and implementation of the front-end solution. I worked with React JS and TypeScript to create a user-friendly and visually appealing website. I collaborated with UI/UX teams to ensure that the website met the client's requirements. I also worked with other cross-functional teams to ensure that the project was completed on time. This project was a great success and the client was very happy with the final product. I learned a lot from this project and it was a great experience.",
     tags: ["React", "Typescript", "MS Dynamics 365 Commerce", "SCSS", "Git"],
     imageUrl: download,
   },
   {
     title: "Dobbies",
     description:
-      "Worked in teams to implement front-end solutions for MS D365 Commerce Projects, utilizing React JS and TypeScript.",
+      "Worked in teams to implement front-end solutions dobbies using MS Dynamics 365 Commerce React and Typescript.",
     detailedDescription:
-      "Collaborating with cross-functional teams to architect and implement front-end solutions for Microsoft Dynamics 365 Commerce Projects, utilizing the power of React JS and TypeScript. Engaging with dedicated UI/UX teams to master and contribute to the styling and aesthetics of websites, ensuring seamless user experiences.",
+      "As a junior developer for this project i was able to apply my knowledge gained during my training period. I worked on different areas of this project which allowed me to understand a great deal about the tools i was using and the project i was working on. This project was also a success and the client was very happy with the final product. I learned a lot from this project and it was a great experience.",
     tags: ["React", "Typescript", "MS Dynamics 365 Commerce", "SCSS", "Git"],
     imageUrl: dobbies,
   },

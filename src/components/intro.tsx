@@ -59,11 +59,12 @@ export default function Intro() {
         initial={{opacity: 0, y: 100}}
         animate={{opacity: 1, y: 0}}
       >
-        <span className="font-bold">Hello, Im Saqlain.</span> Im a{" "}
-        <span className="font-bold">front-end web developer</span> with{" "}
+        <span className="font-bold">Muhammad Saqlain Younas</span> <br />
+        <span className="font-bold">Software Engineer</span> with{" "}
         <span className="font-bold">4 years</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React (Next.js)</span>.
+        building sites & apps. My focus is{" "}
+        <span className="font-bold">Front-end Web Development</span>
+        <span> using React & Next JS/TS</span>.
       </motion.h1>
 
       <motion.div
@@ -88,7 +89,7 @@ export default function Intro() {
           href="/Resume.pdf"
           download
         >
-          Download CV{" "}
+          Download Resume{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition cursor-pointer" />
         </a>
         <a
