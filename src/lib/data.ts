@@ -27,7 +27,7 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Senior Associate Consultatn",
+    title: "Senior Associate Consultant",
     location: "TechVista Systems (United Arab Emirates)",
     description:
       "Got Selected for Onsite Transfer on Basis of Extraordinary Performance on previous projects and tough interview process.",
