@@ -38,12 +38,12 @@ export default function Project({
             {description}
           </p>
 
-          <Link
+          {/* <Link
             href={`/projects/${title}`}
             className="mt-2 leading-relaxed text-gray-700 dark:text-white/70 cursor-pointer hover:text-xl"
           >
             click to learn more...
-          </Link>
+          </Link> */}
 
           <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
             {tags.map((tag, index) => (
